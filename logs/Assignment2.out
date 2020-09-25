@@ -1,0 +1,57 @@
+2020-09-25 15:04:26,530  INFO [main] CountDuplicates:8 -inside Count Double function
+2020-09-25 15:04:26,538  INFO [main] CountDuplicates:9 -String to check for duplicates: abAbcd
+2020-09-25 15:04:26,539  INFO [main] CountDuplicates:35 -number of duplicate characters and digits are: 2
+2020-09-25 15:04:26,571  INFO [main] CountDuplicates:8 -inside Count Double function
+2020-09-25 15:04:26,572  INFO [main] CountDuplicates:9 -String to check for duplicates: indivisibility
+2020-09-25 15:04:26,574  INFO [main] CountDuplicates:35 -number of duplicate characters and digits are: 1
+2020-09-25 15:04:26,580  INFO [main] CountDuplicates:8 -inside Count Double function
+2020-09-25 15:04:26,581  INFO [main] CountDuplicates:9 -String to check for duplicates: AABBCDE
+2020-09-25 15:04:26,583  INFO [main] CountDuplicates:35 -number of duplicate characters and digits are: 2
+2020-09-25 15:04:26,588  INFO [main] CountDuplicates:8 -inside Count Double function
+2020-09-25 15:04:26,588  INFO [main] CountDuplicates:9 -String to check for duplicates: aA1123
+2020-09-25 15:04:26,591  INFO [main] CountDuplicates:35 -number of duplicate characters and digits are: 2
+2020-09-25 15:30:39,816  INFO [main] HighestPossibleNumber:11 -Inside Highest Possisble Number Class 
+2020-09-25 15:30:39,826  INFO [main] HighestPossibleNumber:12 -Number to be analysed for creting highest possible number21445
+2020-09-25 15:30:39,828  INFO [main] HighestPossibleNumber:25 -Highest possible number is :54421
+2020-09-25 15:30:39,858  INFO [main] HighestPossibleNumber:11 -Inside Highest Possisble Number Class 
+2020-09-25 15:30:39,860  INFO [main] HighestPossibleNumber:12 -Number to be analysed for creting highest possible number145263
+2020-09-25 15:30:39,860  INFO [main] HighestPossibleNumber:25 -Highest possible number is :654321
+2020-09-25 15:30:39,865  INFO [main] HighestPossibleNumber:11 -Inside Highest Possisble Number Class 
+2020-09-25 15:30:39,866  INFO [main] HighestPossibleNumber:12 -Number to be analysed for creting highest possible number1254859723
+2020-09-25 15:30:39,867  INFO [main] HighestPossibleNumber:25 -Highest possible number is :9875543221
+2020-09-25 15:39:49,404  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,415  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]
+2020-09-25 15:39:49,416  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :5
+2020-09-25 15:39:49,443  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,444  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[1, 1, 2, -2, 5, 2, 4, 4, -1, -2, 5]
+2020-09-25 15:39:49,445  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :-1
+2020-09-25 15:39:49,446  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,447  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[20, 1, 1, 2, 2, 3, 3, 5, 5, 4, 20, 4, 5]
+2020-09-25 15:39:49,448  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :5
+2020-09-25 15:39:49,449  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,449  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[10]
+2020-09-25 15:39:49,450  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :10
+2020-09-25 15:39:49,450  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,451  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[1, 1, 1, 1, 1, 1, 10, 1, 1, 1, 1]
+2020-09-25 15:39:49,451  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :10
+2020-09-25 15:39:49,452  INFO [main] OddNumberTimes:10 -Inside OddNumberTimes Class 
+2020-09-25 15:39:49,467  INFO [main] OddNumberTimes:11 -Array to be checked for number that occured odd number of times[5, 4, 3, 2, 1, 5, 4, 3, 2, 10, 10]
+2020-09-25 15:39:49,468  INFO [main] OddNumberTimes:16 -Number that ocuured odd number of times :1
+2020-09-25 15:56:03,726  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,732  INFO [main] FacebookLikes:9 -Array of people who liked post[]
+2020-09-25 15:56:03,733  INFO [main] FacebookLikes:11 -no one likes this
+2020-09-25 15:56:03,756  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,756  INFO [main] FacebookLikes:9 -Array of people who liked post[Peter]
+2020-09-25 15:56:03,757  INFO [main] FacebookLikes:15 -Peter likes this
+2020-09-25 15:56:03,760  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,761  INFO [main] FacebookLikes:9 -Array of people who liked post[Jacob, Alex]
+2020-09-25 15:56:03,762  INFO [main] FacebookLikes:19 -Jacob and Alex like this
+2020-09-25 15:56:03,772  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,772  INFO [main] FacebookLikes:9 -Array of people who liked post[Max, John, Mark]
+2020-09-25 15:56:03,773  INFO [main] FacebookLikes:23 -Max, John and Mark like this
+2020-09-25 15:56:03,776  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,776  INFO [main] FacebookLikes:9 -Array of people who liked post[Alex, Jacob, Mark, Max]
+2020-09-25 15:56:03,777  INFO [main] FacebookLikes:28 -Alex, Jacob and 2 others like this
+2020-09-25 15:56:03,791  INFO [main] FacebookLikes:8 -Inside FacebookLikes Class 
+2020-09-25 15:56:03,793  INFO [main] FacebookLikes:9 -Array of people who liked post[Alex, Jacob, Mark, Max, Joey, Chandler]
+2020-09-25 15:56:03,793  INFO [main] FacebookLikes:28 -Alex, Jacob and 4 others like this

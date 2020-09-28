@@ -32,7 +32,12 @@ class DistanceDemo{
 public class Distance {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		DistanceDemo dis1=new DistanceDemo();
+		dis1.set(2, 4.2f);
+		DistanceDemo dis2=new DistanceDemo();
+		dis2.set(3, 5.5f);
+		DistanceDemo dis3=DistanceDemo.sum(dis1, dis2);
+		dis3.display();
 
 	}
 

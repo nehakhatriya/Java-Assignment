@@ -8,9 +8,9 @@ public class Laptop {
 	private String company;
 	private String model;
 	private String operatingSystem;
-	private int processor;
+	private String processor;
 	
-	public Laptop(String company,String model, String operatingSystem,int processor) {
+	public Laptop(String company,String model, String operatingSystem,String processor) {
 		this.company=company;
 		this.model=model;
 		this.operatingSystem=operatingSystem;
@@ -34,10 +34,10 @@ public class Laptop {
 	public void setOperatingSystem(String operatingSystem) {
 		this.operatingSystem = operatingSystem;
 	}
-	public int getProcessor() {
+	public String getProcessor() {
 		return processor;
 	}
-	public void setProcessor(int processor) {
+	public void setProcessor(String processor) {
 		this.processor = processor;
 	}
 }

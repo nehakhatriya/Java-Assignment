@@ -1,0 +1,25 @@
+
+2020-09-28 14:29:50,390  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:29:50,395  INFO [main] Training:11 -Public Training..
+2020-09-28 14:29:50,395  INFO [main] Training:16 -Participants 50
+2020-09-28 14:30:48,615  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:30:48,620  INFO [main] Training:11 -Public Training..
+2020-09-28 14:30:48,621  INFO [main] Training:16 -Participants 50
+2020-09-28 14:30:48,665  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:30:48,666  INFO [main] Training:11 -Public Training..
+2020-09-28 14:30:48,667  INFO [main] Training:16 -Participants 50
+2020-09-28 14:30:48,669  INFO [main] Training:22 -Charges: 150000.0
+2020-09-28 14:34:51,328  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:34:51,333  INFO [main] Training:11 -Public Training..
+2020-09-28 14:34:51,334  INFO [main] Training:16 -Participants 50
+2020-09-28 14:34:51,374  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:34:51,376  INFO [main] Training:11 -Public Training..
+2020-09-28 14:34:51,377  INFO [main] Training:16 -Participants 50
+2020-09-28 14:34:51,381  INFO [main] Training:22 -Charges: 150000.0
+2020-09-28 14:35:20,922  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:35:20,928  INFO [main] Training:12 -Cooperate Training..
+2020-09-28 14:35:20,929  INFO [main] Training:17 -Days 5
+2020-09-28 14:35:20,971  INFO [main] Training:13 -Subject: Java, Fees3000.0
+2020-09-28 14:35:20,971  INFO [main] Training:12 -Cooperate Training..
+2020-09-28 14:35:20,972  INFO [main] Training:17 -Days 5
+2020-09-28 14:35:20,974  INFO [main] Training:23 -Charges: 15000.0

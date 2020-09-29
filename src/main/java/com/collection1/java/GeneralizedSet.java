@@ -17,5 +17,5 @@ public class GeneralizedSet<T> {
 	
 	public void displayItems() {
 	System.out.print(sets.getClass().getSimpleName());
-	}
+	}	
 }

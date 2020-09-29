@@ -15,6 +15,17 @@ public class Television {
 		this.type=type;
 	}
 
+	public boolean equals(Object o) {
+		if(o!=null&&this!=null && o instanceof Car) {
+			if(this.company==((Television)o).company&& this.type==((Television)o).type&&this.price==((Television)o).price)
+			return true;
+		}
+		return false;	
+	}
+	 public int hashCode(){
+
+	        return company.hashCode() ^ type.hashCode();
+	    }
 	public String getCompany() {
 		return company;
 	}

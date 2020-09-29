@@ -16,6 +16,18 @@ public class School {
 		this.schooldistrict=schooldistrict;
 		this.greatSchoolRanking=greatSchoolRanking;
 	}
+	
+	public boolean equals(Object o) {
+		if(o!=null&&this!=null && o instanceof Car) {
+			if(this.name==((School)o).name&& this.city==((School)o).city && this.schooldistrict==((School)o).schooldistrict)
+			return true;
+		}
+		return false;	
+	}
+	 public int hashCode(){
+
+	        return name.hashCode() ^ city.hashCode()^ schooldistrict.hashCode();
+	    }
 
 	public String getName() {
 		return name;

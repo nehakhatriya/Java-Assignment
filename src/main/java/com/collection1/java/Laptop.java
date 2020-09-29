@@ -16,6 +16,18 @@ public class Laptop {
 		this.operatingSystem=operatingSystem;
 		this.processor=processor;
 	}
+	
+	public boolean equals(Object o) {
+		if(o!=null&&this!=null && o instanceof Car) {
+			if(this.model==((Laptop)o).model&& this.company==((Laptop)o).company)
+			return true;
+		}
+		return false;	
+	}
+	 public int hashCode(){
+
+	        return company.hashCode() ^model.hashCode();
+	    }
 	public String getCompany() {
 		return company;
 	}

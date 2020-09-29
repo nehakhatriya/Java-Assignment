@@ -16,7 +16,19 @@ public class Car {
 		this.model=model;
 		this.price=price;
 		this.year=year;
+	}	
+	public boolean equals(Object o) {
+		if(o!=null&&this!=null && o instanceof Car) {
+			if(this.make==((Car)o).make&& this.model==((Car)o).model)
+			return true;
+		}
+		return false;	
 	}
+	 public int hashCode(){
+
+	        return make.hashCode() ^ model.hashCode();
+	    }
+
 
 	public String getMake() {
 		return make;

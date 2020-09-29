@@ -15,7 +15,7 @@ public class DaysAlive {
     DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/MM/yyyy");
     LocalDate date=LocalDate.parse(dt,formatter);
     Period period=Period.between(date, LocalDate.now());
-    System.out.print(period);
+    System.out.print(period.getYears()+" "+period.getMonths()+" "+period.getDays());
 
 	}
 

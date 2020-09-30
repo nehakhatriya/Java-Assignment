@@ -63,10 +63,11 @@ public class MovieDetailsList {
 	  else return true;
   }
   
-  public void diaplayMovie() {
+  public boolean diaplayMovie() {
 	  for(MovieDetails m : movies) {
 		  System.out.println(m.getMovName()+" "+m.getLeadActor()+" "+m.getLeadActress()+" "+m.getGenre());
 	  }
+	  return true;
   }
   
 }

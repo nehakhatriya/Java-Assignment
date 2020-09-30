@@ -63,14 +63,14 @@ class MovieDetailsListTest {
 	@DisplayName("Movies sorted based on Genre")
 	void test6() {
 		MovieDetailsList.sortMoviesBasedOn("Genre");
-		movies.diaplayMovie();
+		assertTrue(movies.diaplayMovie());
 	}
 	
 	@Test
 	@DisplayName("Movies sorted based on name")
 	void test7() {
 		MovieDetailsList.sortMoviesBasedOn("Name");
-		movies.diaplayMovie();
+		assertTrue(movies.diaplayMovie());
 	}
 
 

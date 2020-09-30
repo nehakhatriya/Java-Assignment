@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Car {
+public class Car implements Comparable<Car>{
 
 	private String make;
 	private String model;
@@ -28,7 +28,17 @@ public class Car {
 
 	        return make.hashCode() ^ model.hashCode();
 	    }
-
+		
+	 public int compareTo(Car obj) {
+		 int x=this.make.compareTo(obj.make);
+		 if(x>0) {
+			 return 1;
+		 }
+		 else if(x<0) {
+			 return -1;
+		 }
+		 return 0;
+	 }
 
 	public String getMake() {
 		return make;
@@ -61,4 +71,5 @@ public class Car {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
 }

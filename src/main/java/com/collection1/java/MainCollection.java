@@ -2,6 +2,7 @@ package com.collection1.java;
 
 import java.util.ArrayList;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class MainCollection {
 
@@ -12,10 +13,10 @@ public class MainCollection {
 		Car Maru=new Car("Maruti","Ciaz",2008,405000);
 		Car Benz=new Car("Daimler","Benz",1980,400000);
 		Car Porshe=new Car("Volkswagen","Porshe",1980,400000);
+		cars.addItems(Porshe);
 		cars.addItems(Maruti);
 		cars.addItems(Maru);
 		cars.addItems(Benz);
-		cars.addItems(Porshe);
 		
 		GeneralizedSet<School> schools=new GeneralizedSet<School>();  //School set
 		School KVPY=new School("KVPY","Indore","Indore",4);
@@ -66,6 +67,26 @@ public class MainCollection {
 			System.out.println("Company: "+i.getCompany()+", Type: "+i.getType()+", Price "+i.getPrice()+", 3D Enabled: "+i.isEnabled3D());
 			
 		}
-
+		TreeSet<String> schoolnames=new TreeSet<String>();
+		for(School s:scl) {
+			schoolnames.add(s.getName());
+		}
+		System.out.println("Name of school in natural order");
+		for(String i:schoolnames) {
+			System.out.println(i);
+		}
+		
+		//ordering cars object in ascending order of make by implementing comparable interface
+		TreeSet<Car> carsasen=new TreeSet<Car>();
+		carsasen.add(Maruti);
+		carsasen.add(Maru);
+		carsasen.add(Benz);
+		carsasen.add(Porshe);
+		
+		System.out.println("CARS");
+		for(Car i:carsasen) {                                //Displaying cars
+			System.out.println("Manufacturer: "+i.getMake()+", Model :"+i.getModel()+", Year "+i.getYear()+", Price: "+i.getPrice());
+			
+		}
 	}
 }

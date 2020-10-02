@@ -10,6 +10,7 @@ public class WordCount {
 			String words[]=str.split(" ");
 			count=count+words.length;
 		}
+		br.close();
 		return count;
 	}
 }

@@ -8,6 +8,7 @@ public class LineCount {
 		while(br.readLine()!=null) {
 			count++;
 		}
+		br.close();
 		return count;
 	}
 }

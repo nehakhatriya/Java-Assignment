@@ -17,6 +17,7 @@ public class GrepApp {
 		for( Integer i: src.keySet()) {
 			System.out.println(i+":"+src.get(i));
 		}
+	   br.close();
 		return src;
 	}
 }

@@ -1,11 +1,18 @@
 package com.collection2.java;
 
-public class MMSavingAcc {
+import java.io.Serializable;
 
+public class MMSavingAcc implements Serializable,Comparable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int accID;
 	private String accName;
 	private double accBalance;
 	private boolean isSalaryAccount;
+	
 	public MMSavingAcc(int accID, String accName, double accBalance, boolean isSalaryAccount) {
 		super();
 		this.accID = accID;
@@ -62,6 +69,13 @@ public class MMSavingAcc {
 		if (accID != other.accID)
 			return false;
 		return true;
+	}
+
+
+	@Override
+	public int compareTo(Object obj) {
+		// TODO Auto-generated method stub
+		return this.accID-((MMSavingAcc)obj).accID;
 	}
 	
 	
